@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="exampleico.ico">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--「遷移する」ということを定義-->
 <script type="text/javascript">
 function ScrollWindow(elem) 
 {
@@ -17,6 +18,7 @@ function ScrollWindow(elem)
 </script>
 </head>
 <body>
+<!--SNS一覧-->
 <div class="sns-container">
 <ul>
 <li style="--i:7;--clr:#1da1f2;"><a href="https://twitter.com/k_down_yukkuri"><span><i class="fa-brands fa-twitter"></i></span>Twitter</a></li>
@@ -30,11 +32,13 @@ function ScrollWindow(elem)
 </div>
 <div class="title">
 <p>ITTOSEIs HOMEPAGE</p>
+<!--遷移するためのボタン-->
 <div class="specified-scroll-container">
 <a id="link_section2" href="javascript:void(0);" onclick="ScrollWindow('About');"><p>About</p></a><br />
 <a id="link_section3" href="javascript:void(0);" onclick="ScrollWindow('Contents');"><p>Contents</p></a><br />
 </div>
 </div>
+<!--First block-->
 <div id="Top">
 <div id="Back to top" class="section">トップへ戻る</div>
 <div class="popup">
@@ -45,8 +49,11 @@ function ScrollWindow(elem)
 <div class="diamond2">
 </div>
 </div>
+<!--Second block-->
 <div id="About" class="section">About</div>
+<!--Third block-->
 <div id="Contents" class="section">Contents</div>
+<!--フッター-->
 <div class="Footer">
 <a id="link_section4" href="javascript:void(0);" onclick="ScrollWindow('Back to top');"><p>トップへ戻る</p></a><br />
 </div>
