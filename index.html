@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8>">
-<title>Example Homepage</title>
+<title>Ittosei's Homepage</title>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="exampleico.ico">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,43 +19,57 @@ function ScrollWindow(elem)
 </head>
 <body>
 <!--SNS一覧-->
-<div class="sns-container">
+<div id="sns-container">
 <ul>
-<li style="--i:7;--clr:#1da1f2;"><a href="https://twitter.com/k_down_yukkuri"><span><i class="fa-brands fa-twitter"></i></span>Twitter</a></li>
-<li style="--i:6;--clr:#1877f2;"><a href="https://m.facebook.com/profile.php?ref=m_nux_wizard"><span><i class="fa-brands fa-facebook-f"></i></span>Facebook</a></li>
-<li style="--i:5;--clr:#f70000;"><a href="https://www.youtube.com/channel/UCcbSezgvWabr3pNha-3_3uQ"><span><i class="fa-brands fa-youtube"></i></span>Youtube</a></li>
-<li style="--i:4;--clr:#00efe8;"><a href="https://www.tiktok.com/@knock_down1224"><span><i class="fa-brands fa-tiktok"></i></span>Tiktok</a></li>
-<li style="--i:3;--clr:#8118f0;"><a href="https://www.twitch.tv/betel_d4iki2140"><span><i class="fa-brands fa-twitch"></i></span>Twitch</a></li>
-<li style="--i:2;--clr:#e60023;"><a href="https://www.pinterest.jp/knockdown1224/"><span><i class="fa-brands fa-pinterest"></i></span>Pinterest</a></li>
+<li style="--i:7;--clr:#1da1f2;"><a href="https://twitter.com/IttoSeeeei4221"><span><i class="fa-brands fa-twitter"></i></span>Twitter</a></li>
+<li style="--i:6;--clr:#1877f2;"><a href="https://www.facebook.com/profile.php?id=100081173288316"><span><i class="fa-brands fa-facebook-f"></i></span>Facebook</a></li>
+<li style="--i:5;--clr:#f70000;"><a href="https://www.youtube.com/channel/UC4gY4LBk49Fo36-LL0xz7hw"><span><i class="fa-brands fa-youtube"></i></span>Youtube</a></li>
+<li style="--i:4;--clr:#00efe8;"><a href="https://www.tiktok.com/@itto_seeei4221"><span><i class="fa-brands fa-tiktok"></i></span>Tiktok</a></li>
+<li style="--i:3;--clr:#8118f0;"><a href="https://www.twitch.tv/dajiiiin2140"><span><i class="fa-brands fa-twitch"></i></span>Twitch</a></li>
+<li style="--i:2;--clr:#e60023;"><a href="https://www.pinterest.jp/daikibetel4221/"><span><i class="fa-brands fa-pinterest"></i></span>Pinterest</a></li>
 <li style="--i:1;--clr:#ff4500;"><a href="https://www.reddit.com/user/Betel_d4iki2140"><span><i class="fa-brands fa-reddit-alien"></i></span>Reddit</a></li>
 </ul>
 </div>
-<div class="title">
+<!--Header-->
+<div id="header">
+<div id="title">
 <p>ITTOSEIs HOMEPAGE</p>
+</div>
 <!--遷移するためのボタン-->
-<div class="specified-scroll-container">
+<div id="specified-scroll-container">
 <a id="link_section2" href="javascript:void(0);" onclick="ScrollWindow('About');"><p>About</p></a><br />
 <a id="link_section3" href="javascript:void(0);" onclick="ScrollWindow('Contents');"><p>Contents</p></a><br />
 </div>
 </div>
+<div id="container">
 <!--First block-->
 <div id="Top">
-<div id="Back to top" class="section">トップへ戻る</div>
-<div class="popup">
+<div id="Back to top" class="section">Back to top</div>
+<div id="popup">
 <p>ようこそ！</p>
-</div>
-<div class="diamond1">
-</div>
-<div class="diamond2">
 </div>
 </div>
 <!--Second block-->
-<div id="About" class="section">About</div>
+<div id="About" class="section">
+About<br>
+<div id="About-logo"><p>About</p></div>
+<div id="About-text">
+<p>イットーセイの紹介ホームページ。</p>
+</div>
+</div>
 <!--Third block-->
-<div id="Contents" class="section">Contents</div>
-<!--フッター-->
-<div class="Footer">
-<a id="link_section4" href="javascript:void(0);" onclick="ScrollWindow('Back to top');"><p>トップへ戻る</p></a><br />
+<div id="Contents" class="section">
+Contents<br>
+<div id="Contents-logo"><p>Contents</p></div>
+<div id="Contents-text">
+<p>↓好きなこと、趣味など↓</p>
+</div>
+</div>
+</div>
+<!--Footer-->
+<a id="link_section4" href="javascript:void(0);" onclick="ScrollWindow('Back to top');"><p>Back to top</p></a><br>
+<div id="copyright">
+<p>©2022 ittoseis homepage All Lights Reserved.</p>
 </div>
 </body>
 </html>
